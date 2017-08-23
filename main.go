@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// Create router
 	router := NewRouter()
 
 	// Adds cors middleware to router
